@@ -14,6 +14,12 @@ brew install --cask chromedriver
 
  
 
+## Add your Tauk API Token and Project ID
+
+In the `setUp()` method of the `Tests` class, add your Tauk API Token and Project ID values. Alternatively, you can pass them through environment variables. Please refer to the [Tauk Python Package for WebDriver-based Tests](https://github.com/thetauk/tauk-webdriver-python) for more information.
+
+
+
 ## Running the example test
 
 ```bash
